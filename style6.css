@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-parent{
+    text-align: center;
+    height: 600px;
+    background: rgb(0,0,0,0.7)url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtVL7gcsu8YQYfZz8Z2ws-I-LnyPLNUXMfeA&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    background-blend-mode: darken;
+}
+.header-parent h1{
+    font-size: 70px;
+    color: white;
+    padding-top: 12%;
+}
+.header-parent p{
+    font-size: 22px;
+    color: white;
+}
+.header-parent button{
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    font-size: 22px;
+    border: none;
+    border-radius: 32px;
+    margin-top: 30px;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.header ul{
+    padding: 10px 20px;
+    gap: 20px;
+    display: flex;
+    list-style: none;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.header h2{
+    padding: 6px;
+}
+body{
+    background-color: silver;
+}
+.type h1{
+    font-size: 70px;
+    text-align: center;
+}
+.type {
+    margin-top: 30px;
+    text-align: center;
+}
+.show-parent{
+    gap: 30px;
+   justify-content: center;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    text-align: center;
+}
+.box1 h2{
+    font-size: 40px;
+}
+.box1 p{
+    padding-bottom: 20px;
+}
+.box1 img{
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+}
